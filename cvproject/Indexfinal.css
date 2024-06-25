@@ -1,0 +1,170 @@
+
+body,html{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.a4container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 297mm;
+    width: 210mm;
+    background-color: rgba(10, 202, 202, 0.409);
+    font-size: 100%;
+    justify-content: center;
+
+}
+
+#left-column {
+    font-size: 65%;
+    width: 42%;
+    display: flex; 
+    flex-direction: column ;
+    background-color: whitesmoke;
+    padding : 8mm;
+    box-sizing: content-box;
+    justify-content: center;
+}
+#CV{
+    height : 150px;
+    width: 200px;
+    border-radius: 50%;
+ 
+
+
+}
+#my_image{
+
+    height: 15px;
+    width:  15px;
+}
+
+#left-column h1,h4,h3,h5,h2{
+    display: inline;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#left-column h1,h4{
+    
+    line-height: 1.2;
+}
+
+a {
+    color: black;
+    text-decoration:underline;
+}
+
+#left-column ul{
+    padding-inline-start: 20px;
+    line-height: 2;
+}
+
+#left-column hr {
+    margin: 0%;
+    width: 90%; /* Set width to 100% to make it span the container */
+    height: 3px; /* Set a small height for a thin horizontal line */
+    background-color: rgba(2, 2, 123,.7); /* Set the color of the line */
+    border: none; /* Remove any default border */
+}
+
+#right-column{
+    background-color: white;
+    padding: 8mm;
+    display: flex;
+    flex-direction: column;
+    font-size: 108%;
+    justify-content: center;
+}
+
+#right-column h1{
+    line-height: 1.4;
+    margin-bottom: 2mm;
+    margin-top: 9mm;
+}
+#right-column h3{
+    margin-bottom: 5.5mm;
+}
+#right-column h6{
+    margin-top: 2mm;
+    margin-bottom: 4mm;
+}
+#bracket hr{
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    width :44%;
+    height: 1px;
+    background-color: black; 
+    border: none;   
+}
+#bracket{
+    padding-top: 9mm;
+    line-height: .1;
+}
+
+
+.vivasoft{
+    height: 20px;
+    width: 100%;
+    display: flex;
+
+}
+.vivasoft #div1{
+    font-size: 110%;
+    height:20px;
+    width: 100%;
+    font-weight: 600;
+    flex-grow: 1;
+
+    
+}
+.vivasoft #div2{
+    height: 20px;
+    width: 100%;
+    text-align: right;
+    font-size: small;
+    padding-top: 1.5mm;
+    flex-grow: 1;
+}
+#right-column p{
+    word-wrap: break-word;
+    font-size: 65%;
+}
+#bracket1 hr{
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    width :68%;
+    height: 1px;
+    background-color: black; 
+    border: none;   
+}
+#bracket1{
+    padding-top: 3mm;
+    line-height: .1;
+
+}
+#bracket2{
+    padding-top: 3mm;
+    line-height: .1;
+}
+#bracket2 hr{
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    width :42%;
+    height: 1px;
+    background-color: black; 
+    border: none;   
+}
+
+
+#right-column a{
+    float: right;
+}
